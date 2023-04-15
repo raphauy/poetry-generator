@@ -84,7 +84,7 @@ export default function Home() {
               fontSize={{ base: "3xl", sm: "4xl", md: "6xl" }}
               lineHeight={"110%"}
             >
-                Crea poesía úncia con <br />
+                Crea poesía única con <br />
               <Text as={"span"} color={"green.400"}>
                 inspiración
               </Text>

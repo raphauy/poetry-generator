@@ -50,7 +50,7 @@ export default function Footer() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
-        <Text>© 2023 Poetry Generator.</Text>
+        <Text>© 2023 Generador de poesía.</Text>
         <Stack direction={"row"} spacing={6}>
           <SocialButton label={"Twitter"} href={"https://twitter.com/raphauy"}>
             <FaTwitter />
