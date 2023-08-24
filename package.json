@@ -1,9 +1,9 @@
 {
   "name": "poetry-generator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
-    "start": "npm run build && next start",
+    "start": "next start",
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint"
