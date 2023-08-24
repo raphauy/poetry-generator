@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  uruguay-in-wines:
+  rc-poetry-generator:
     container_name: rc-poetry-generator
     image: raphauy/rc-poetry-generator:latest
     restart: always
