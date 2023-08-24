@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  uruguay-in-wines:
+    container_name: rc-poetry-generator
+    image: raphauy/rc-poetry-generator:latest
+    restart: always
+    env_file:
+      - .env
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8050:3000
+    networks:
+      - rc-network
+
+networks:
+  rc-network:
+    external:
+      name: rc-network

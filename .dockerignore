@@ -1,0 +1,15 @@
+*
+!/package.json
+!/tsconfig.json
+!/tailwind.config.js
+!/postcss.config.js
+!/next-env.d.ts
+!/next.config.js
+!/.eslintrc.js
+!/.env
+
+!/app
+!/components
+!/pages
+!/utils
+!/public
